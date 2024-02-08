@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coritiba FC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #006600;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coritiba FC</h1>
+    </header>
+    
+    <nav>
+        <a href="#historia">História</a>
+        <a href="#elenco">Elenco</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#estadio">Estádio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="historia">
+        <h2>História do Coritiba</h2>
+        <p>O Coritiba Foot Ball Club é um clube de futebol brasileiro da cidade de Curitiba, no estado do Paraná. Foi fundado em 12 de outubro de 1909.</p>
+        <p>O Coritiba é um dos clubes mais tradicionais do Brasil, tendo conquistado diversos títulos estaduais e nacionais ao longo de sua história.</p>
+        <p>Seu mascote é o Vovô Coxa Branca e seu uniforme tradicional é composto por camisas brancas com listras verdes, calções pretos e meias brancas.</p>
+    </section>
+
+    <section id="elenco">
+        <h2>Elenco Atual</h2>
+        <ul>
+            <li>Goleiros:
+                <ul>
+                    <li>João</li>
+                    <li>Carlos</li>
+                </ul>
+            </li>
+            <li>Zagueiros:
+                <ul>
+                    <li>Pedro</li>
+                    <li>Lucas</li>
+                </ul>
+            </li>
+            <li>Meio-Campistas:
+                <ul>
+                    <li>Marcos</li>
+                    <li>Rafael</li>
+                </ul>
+            </li>
+            <li>Atacantes:
+                <ul>
+                    <li>Gabriel</li>
+                    <li>Thiago</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="noticias">
+        <h2>Últimas Notícias</h2>
+        <p>O Coritiba vence seu último jogo por 2-0.</p>
+        <p>Novo patrocinador anuncia parceria com o clube.</p>
+        <p>Contratação de novo técnico é anunciada pela diretoria.</p>
+    </section>
+
+    <section id="estadio">
+        <h2>Estádio</h2>
+        <p>O Coritiba manda seus jogos no Estádio Couto Pereira, localizado em Curitiba, Paraná. Inaugurado em 1932, tem capacidade para mais de 40.000 espectadores.</p>
+        <p>O estádio já foi palco de diversos jogos importantes ao longo dos anos, incluindo partidas do Campeonato Brasileiro e da Copa do Brasil.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Para mais informações, entre em contato:</p>
+        <p>Endereço: Rua Mauá, 2633 - Alto da Glória, Curitiba - PR, 80045-260</p>
+        <p>Telefone: (41) 3218-1909</p>
+        <p>Email: contato@coritiba.com.br</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Coritiba FC
+    </footer>
+</body>
+</html>
