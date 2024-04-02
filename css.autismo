@@ -12,9 +12,10 @@
   }
   
   header {
-    background-color: #037de0;
+    background-color: #ffffff;
     color: #050101;
     padding: 1rem;
+    text-align: center;
   }
   
   nav ul {
@@ -27,7 +28,7 @@
   }
   
   nav ul li a {
-    color: #fff;
+    color: #f7f9fd;
     text-decoration: none;
   }
   
@@ -40,8 +41,43 @@
   }
   
   footer {
-    background-color: #333;
+    background-color: #070707;
     color: #fff;
     text-align: center;
     padding: 1rem;
   }
+
+  header nav ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    border-right: 5px solid #5e53ff; /* Adiciona uma borda à direita de cada item */
+}
+
+header nav ul li a:hover {
+    color: #080355; /* Muda a cor ao passar o mouse */  
+    background-color: #ffffff;
+}
+
+header nav ul li a {
+    color: #5e53ff;
+    text-decoration: none;
+    font-size: 22px; /* Aumenta o tamanho da fonte */
+    transition: color 0.3s; /* Adiciona transição para a mudança de cor */
+}
+.logo {
+    text-align: center;
+    width: 20%;
+    padding: 0 0 0 20px;
+    margin-right: 50px;
+}
+#sobre {
+    text-align: center;
+    font-size: 19px
+    
+}
+
+.imagem {
+    border-radius: 140px;
+    width: 20%;
+    margin-right: 30px;
+}
