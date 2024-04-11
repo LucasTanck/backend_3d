@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Página sobre Autismo</title>
+</head>
+  <header>
+    <h1></h1><img src="autismo.jpg" class="logo"></h1>
+    <nav>
+      <ul>
+        <li> <a href="sobre.html">Sobre o Autismo</a></li>
+        <li> <a href="sintomas.html">Sintomas</a></li>
+        <li> <a href="tratamento.html">Tratamento</a></li>
+        <li> <a href="contato">Contato</a></li>
+        <li> <a href="recursos e orientações.html">recursos e orientaçoẽs</a></li>
+        <li> <a href="curiosidades.html">curiosidades</a></li>
+      </ul>
+    </nav>
+  </header>
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  header nav ul li {
+  display: inline;
+  padding: 0 20px 0 20px;
+  border-right: 5px solid #006609; /* Adiciona uma borda à direita de cada item */
+}
+
+header nav ul li a:hover {
+  color: #2fcf07; /* Muda a cor ao passar o mouse */  
+  background-color: #ffffff;
+}
+
+header nav ul li a {
+  color: #006609;
+  text-decoration: none;
+  font-size: 22px; /* Aumenta o tamanho da fonte */
+  transition: color 0.3s; /* Adiciona transição para a mudança de cor */
+}
+.logo {
+  text-align: center;
+  width: 20%;
+  padding: 0 0 0 20px;
+  margin-right: 50px;
+}
+
+</style>
+<body>
+  <header>
+    <h1>Autismo: Entendenda Melhor</h1>
+  </header>
+
+  <main>
+    <section id="introducao">
+      <h2>O que é o Autismo?</h2>
+      <p>O autismo, também conhecido como Transtorno do Espectro Autista (TEA), é uma condição neurológica complexa que
+        afeta o desenvolvimento do cérebro, influenciando a maneira como uma pessoa se comunica, interage socialmente e
+         processa informações. É chamado de "espectro" porque engloba uma ampla variedade de sintomas e níveis de gravidade,
+          variando de indivíduo para indivíduo. Algumas características comuns do autismo incluem dificuldades na comunicação verbal e não verbal,
+        dificuldades na interação social, interesses restritos e comportamentos repetitivos. No entanto, 
+        é importante notar que o autismo se manifesta de maneira única em cada pessoa, 
+        e os sintomas podem variar significativamente.O autismo é uma condição vitalícia, mas com intervenção precoce e apoio adequado, as 
+       pessoas com autismo podem desenvolver habilidades e alcançar seu potencial máximo. A causa exata do 
+       autismo ainda não é completamente compreendida, mas é provavelmente uma combinação de fatores genéticos
+        e ambientais. O diagnóstico é feito por profissionais de saúde qualificados, geralmente por meio de observação 
+        clínica e avaliações específicas.</p>
+    </section>
+
+    <section id="causas">
+      <h2>compreensão</h2>
+      <p>É fundamental promover a compreensão e a aceitação do autismo na sociedade, garantindo que as pessoas no espectro tenham acesso a oportunidades educacionais, de emprego e sociais para que possam alcançar seu pleno potencial. A conscientização sobre o autismo e o respeito pela neurodiversidade são passos importantes para construir uma comunidade mais inclusiva e acolhedora para todos.
+      </p>
+    </section>
+
+    <section id="tratamento">
+      <h2>Tratamento e Apoio</h2>
+      <p>O diagnóstico de autismo geralmente ocorre na infância, mas algumas pessoas podem não ser diagnosticadas até a adolescência ou idade adulta. O tratamento e o apoio variam de acordo com as necessidades individuais de cada pessoa e podem incluir terapias comportamentais, terapia ocupacional, terapia da fala e intervenções educacionais especializadas.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Página sobre Autismo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
